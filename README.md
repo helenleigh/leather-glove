@@ -13,10 +13,12 @@ The sounds in the example file are recorded by me at the makerspace in Chicago P
 
 HOW TO REPLICATE THIS PROJECT (on a mac)
 
-1. Download and install Purr Data (https://github.com/agraef/purr-data/releases)
-2. Download and install Hairless Midi (https://projectgus.github.io/hairless-midiserial/)
+1. Download and install Purr Data: https://github.com/agraef/purr-data/releases
+2. Download and install Hairless Midi: https://projectgus.github.io/hairless-midiserial/
 3. In Finder, search for and open Audio Midi setup, then click Window > show midi devices and enable the IAC driver. If you have trouble doing this, Neill has helpfully written up how to do that here: https://gist.github.com/nbogie/309848134aede2e57ee80a4b752b0294
 4. Next, save the transmitter hex file to your "instrument" microbit and the receiver hex file to a second microbit.
 5. The instrument microbit doesn't have to be plugged into your computer. Just power it with a battery pack. The receiver microbit must be connected to your computer with a USB cable.
 6. Once both microbits have power and code, you can fire up Hairless midi. Select your USB microbit in the serial port dropdown, and your IAC driver in the midi out.
 7. Okay now you're ready to make some noises! Download the pure data folder and open up the .pd file. 
+
+I hope this will work for you all but if you run into issues just say hi on twitter @helenleigh and I'll write up the vital steps I probably missed out ;)
