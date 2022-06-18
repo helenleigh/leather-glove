@@ -1,7 +1,7 @@
-# gesturemusicglove
-Gesture controlled music glove with two microbits
+# leather glove
+Leather glove with gesture controlled moon cello and tool samples
 
-This is a fun way of uaing gesture to trigger samples I record when I hear interesting sounds. The project is a mish mash of various people's work so I don't take credit for it - I am just documenting it (with permission) in case other people want to have fun with gesture controlled noises using £20 worth of hardware and some open source software! 
+This is a fun way of using gesture to trigger samples using £20 of hardware. The project is a mish mash of various people's work and is documented with the blessing of all involved.
 
 CREDITS
 
@@ -19,6 +19,4 @@ HOW TO REPLICATE THIS PROJECT (on a mac)
 4. Next, save the transmitter hex file to your "instrument" microbit and the receiver hex file to a second microbit.
 5. The instrument microbit doesn't have to be plugged into your computer. Just power it with a battery pack. The receiver microbit must be connected to your computer with a USB cable.
 6. Once both microbits have power and code, you can fire up Hairless midi. Select your USB microbit in the serial port dropdown, and your IAC driver in the midi out.
-7. Okay now you're ready to make some noises! Download the pure data folder and open up the .pd file. 
-
-I hope this will work for you all but if you run into issues just say hi on twitter @helenleigh and I'll write up the vital steps I probably missed out ;)
+7. Make some noises! Download the pure data folder and open up the .pd file. 
