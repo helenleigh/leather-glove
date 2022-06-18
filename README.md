@@ -3,8 +3,6 @@ Leather glove with gesture controlled moon cello and tool samples
 
 This is a fun way of using gesture to trigger samples using £20 of hardware. The project is a mish mash of various people's work and is documented with the blessing of all involved.
 
-CREDITS
-
 The hex files for the Pure Data received and Pure Data transmitter come from written by the delightful sound artist and UK based D&T teacher Tom Fox. Find his work at @vulpstrements. He wrote up his version on his blog, where Neill Bogie's (nbogie on github) comments helped me figure out how to get Hairless Midi to work on my Mac https://vulpestruments.com/2018/11/21/how-to-connect-your-mini-mu-to-puredata/ 
 
 For triggering the synth, I actually used Purr Data not Pure Data as I find it more reliable. The patch I've uploaded here is based on one written by Andrew Hockey, a composer and excellent sound wierdo you can find on twitter or insta @andrewrhockey. 
